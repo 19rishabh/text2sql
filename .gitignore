@@ -9,3 +9,7 @@ Thumbs.db
 
 # Notebook checkpoints
 .ipynb_checkpoints
+
+# model
+my_final_text_to_sql_model/
+my_model.zip
