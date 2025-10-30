@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Text-to-SQL Prototype</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <main>
+        <h1>Text-to-SQL Prototype</h1>
+        
+        <div class="form-group">
+            <label for="question">Enter your question:</label>
+            <textarea id="question" rows="3" placeholder="e.g., How many heads of the departments are older than 56?"></textarea>
+        </div>
+        
+        <div class="form-group">
+            <label for="context">Enter the table schema (context):</label>
+            <textarea id="context" rows="5" placeholder="e.g., CREATE TABLE head (age INTEGER)"></textarea>
+        </div>
+        
+        <button id="generate-btn">Generate SQL</button>
+        
+        <div class="result-group">
+            <label for="result-sql">Generated SQL:</label>
+            <pre><code id="result-sql">...</code></pre>
+            <div id="loading-spinner" class="hidden"></div>
+        </div>
+    </main>
+    
+    <script src="script.js"></script>
+</body>
+</html>
