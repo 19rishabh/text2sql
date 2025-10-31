@@ -8,7 +8,7 @@ This project was developed as a prototype to explore the practical application o
 - **Dataset**: b-mc2/sql-create-context dataset - 78,000+ question-schema-query triplets.
 - **Performance Metrics** - BLEU Score - 88.37 - test set of 7,858 unseen examples.
 - **Backend**: Python, Flask
-- **Frontend: HTML5, CSS3, JavaScript
+- **Frontend**: HTML5, CSS3, JavaScript
 
 ## Setup & Installation
 
@@ -27,11 +27,12 @@ python -m venv venv
 pip install -r requirements.txt
 ```
 **4. Get the Trained Model:**
+```
 Train the model using model generation.ipynb on collab using T4 gpu.
 Copy the zipped model from collab to local environment.
 Unzip the file.
 Make sure the resulting folder is named my_final_text_to_sql_model and is located in the root of the project.
-
+```
 **5. Add Model to .gitignore:**
 Make sure your .gitignore file contains the following lines to avoid committing the large model files:
 ```
