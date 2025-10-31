@@ -56,6 +56,6 @@ python -m http.server 8000
 Access the Application at http://localhost:8000
 
 **Future Work:**
-Data Augmentation: The #1 priority. The training data must be expanded to include examples of JOIN, GROUP BY, ORDER BY, LIKE, and other common SQL patterns.
-Model Scaling: Fine-tune a larger base model (like t5-base) that may have a better capacity to generalize.
-Execution Accuracy: The true test of success is not "Exact Match" but "Execution Accuracy." The next step is to build an evaluation pipeline that actually runs the generated SQL against a real database and compares the results.
+- Data Augmentation: The #1 priority. The training data must be expanded to include examples of JOIN, GROUP BY, ORDER BY, LIKE, and other common SQL patterns.
+- Model Scaling: Fine-tune a larger base model (like t5-base) that may have a better capacity to generalize.
+- Execution Accuracy: The true test of success is not "Exact Match" but "Execution Accuracy." The next step is to build an evaluation pipeline that actually runs the generated SQL against a real database and compares the results.
