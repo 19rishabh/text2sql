@@ -1,14 +1,14 @@
 # Text-to-SQL 
 
-## This project is a full-stack implementation of a Text-to-SQL translator. It uses a fine-tuned T5 Transformer model to convert natural language questions into executable SQL queries. The model is served via a Python (Flask) API and is interactive through a simple web interface.
+This project is a full-stack implementation of a Text-to-SQL translator. It uses a fine-tuned T5 Transformer model to convert natural language questions into executable SQL queries. The model is served via a Python (Flask) API and is interactive through a simple web interface.
 This project was developed as a prototype to explore the practical application of modern NLP techniques, specifically Supervised Fine-Tuning (SFT), as discussed in research papers like "Text-to-SQL Empowered by Large Language Models: A Benchmark Evaluation".
 
-**Model**: t5-small (Fine-Tuned)
-**Training**: Google Colab (T4 GPU)
-**Dataset**: b-mc2/sql-create-context dataset - 78,000+ question-schema-query triplets.
-**Performance Metrics** - BLEU Score - [XX.XX] - test set of 7,858 unseen examples.
-**Backend**: Python, Flask
-**Frontend: HTML5, CSS3, JavaScript
+- **Model**: t5-small (Fine-Tuned)
+- **Training**: Google Colab (T4 GPU)
+- **Dataset**: b-mc2/sql-create-context dataset - 78,000+ question-schema-query triplets.
+- **Performance Metrics** - BLEU Score - 88.37 - test set of 7,858 unseen examples.
+- **Backend**: Python, Flask
+- **Frontend: HTML5, CSS3, JavaScript
 
 ## Setup & Installation
 
